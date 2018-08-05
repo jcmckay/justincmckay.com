@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Nav from './components/nav';
 import Header from './components/header';
 import './app.scss';
 
@@ -8,7 +7,29 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Nav />
+        <div className="main">
+          <div className="projects">
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+
+          </div>
+        </div>
       </div>
     );
   }
